@@ -13,6 +13,7 @@ const renderForm = () => {
          labelCol={{ span: 2 }}
          wrapperCol={{ span: 16 }}
          autoComplete="off"
+         size="large"
       >
          <Form.Item label="ឈ្មោះខ្មែរ" style={{ marginBottom: 0 }}>
             <Form.Item
@@ -20,7 +21,7 @@ const renderForm = () => {
                rules={[{ required: true, message: "Please input firstname!" }]}
                style={{ display: "inline-block", width: "calc(50% - 8px)" }}
             >
-               <Input placeholder="នាម" size="large" className="shadow-md" />
+               <Input placeholder="នាម" className="shadow-md" />
             </Form.Item>
             <Form.Item
                name="lastname"
@@ -31,11 +32,7 @@ const renderForm = () => {
                   marginLeft: 16,
                }}
             >
-               <Input
-                  placeholder="គោត្តនាម"
-                  size="large"
-                  className="shadow-md"
-               />
+               <Input placeholder="គោត្តនាម" className="shadow-md" />
             </Form.Item>
          </Form.Item>
 
@@ -44,11 +41,7 @@ const renderForm = () => {
             name="username"
             rules={[{ required: true, message: "Please input username!" }]}
          >
-            <Input
-               size="large"
-               placeholder="ឈ្មោះចូលប្រើ"
-               className="shadow-md"
-            />
+            <Input placeholder="ឈ្មោះចូលប្រើ" className="shadow-md" />
          </Form.Item>
 
          <Form.Item label="លេខសំងាត់ចូលប្រើ" style={{ marginBottom: 0 }}>
@@ -57,11 +50,7 @@ const renderForm = () => {
                rules={[{ required: true, message: "Please input password!" }]}
                style={{ display: "inline-block", width: "calc(50% - 8px)" }}
             >
-               <Input
-                  placeholder="លេខសំងាត់"
-                  size="large"
-                  className="shadow-md"
-               />
+               <Input placeholder="លេខសំងាត់" className="shadow-md" />
             </Form.Item>
             <Form.Item
                name="confirmPassword"
@@ -72,11 +61,7 @@ const renderForm = () => {
                   marginLeft: 16,
                }}
             >
-               <Input
-                  placeholder="លេខសំងាត់"
-                  size="large"
-                  className="shadow-md"
-               />
+               <Input placeholder="លេខសំងាត់" className="shadow-md" />
             </Form.Item>
          </Form.Item>
 
@@ -97,11 +82,7 @@ const renderForm = () => {
                rules={[{ required: true, message: "Please input firstname!" }]}
                style={{ display: "inline-block", width: "calc(50% - 8px)" }}
             >
-               <Input
-                  placeholder="លេខទូរសព្ទ"
-                  size="large"
-                  className="shadow-md"
-               />
+               <Input placeholder="លេខទូរសព្ទ" className="shadow-md" />
             </Form.Item>
             <Form.Item
                name="email"
@@ -112,7 +93,7 @@ const renderForm = () => {
                   marginLeft: 16,
                }}
             >
-               <Input placeholder="អ៊ីមែល" size="large" className="shadow-md" />
+               <Input placeholder="អ៊ីមែល" className="shadow-md" />
             </Form.Item>
          </Form.Item>
 

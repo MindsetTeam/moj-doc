@@ -17,6 +17,7 @@ const renderForm = () => {
          labelCol={{ span: 2 }}
          wrapperCol={{ span: 16 }}
          autoComplete="off"
+         size="large"
       >
          <Form.Item
             label="ប្រភេទឯកសារ"
@@ -26,7 +27,6 @@ const renderForm = () => {
             <Select
                placeholder="ប្រភេទឯកសារ"
                onChange={onHandleChange}
-               size="large"
                className="shadow-md"
             >
                <Option value="ទាំងអស់">ទាំងអស់</Option>
@@ -45,7 +45,6 @@ const renderForm = () => {
             <Select
                placeholder="កាលបរិឆ្ឆែត"
                onChange={onHandleChange}
-               size="large"
                className="shadow-md"
             >
                <Option value="ថ្ងៃនេះ">ថ្ងៃនេះ</Option>
@@ -62,7 +61,6 @@ const renderForm = () => {
             <Select
                placeholder="ប្រភេទលិខិតបទដ្ឋានគតិយុត្ត"
                onChange={onHandleChange}
-               size="large"
                className="shadow-md"
             >
                <Option value="jack">Jack</Option>
@@ -79,7 +77,6 @@ const renderForm = () => {
             <Select
                placeholder="ក្រសួង-ស្ថាប័ន"
                onChange={onHandleChange}
-               size="large"
                className="shadow-md"
             >
                <Option value="jack">Jack</Option>
@@ -97,7 +94,6 @@ const renderForm = () => {
                <DatePicker
                   placeholder="ថ្ងៃខែឆ្នាំចាប់ផ្ដើម"
                   onChange={onStartDateChange}
-                  size="large"
                   className="w-full shadow-md"
                />
             </Form.Item>
@@ -113,7 +109,6 @@ const renderForm = () => {
                <DatePicker
                   placeholder="ថ្ងៃខែឆ្នាំចុងក្រោយ"
                   onChange={onEndDateChange}
-                  size="large"
                   className="w-full shadow-md"
                />
             </Form.Item>
